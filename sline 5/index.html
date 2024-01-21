@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sline 5</title>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <table class="table-1">
+        <thead>
+            <tr>
+                <th>hàng 1 cột 1 </th>
+                <th>hàng 1 cột 2</th>
+                <th>hàng 1 cột 3 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hàng 2 cột 1 </td>
+                <td>hàng 2 cột 2 </td>
+                <td>hàng 2 cột 3</td>
+            </tr>
+            <tr>
+                <td>hàng 3 cột 1 </td>
+                <td>hàng 3 cột 2 </td>
+                <td>hàng 3 cột 3</td>
+            </tr>
+
+        </tbody>
+        <table class="table-2">
+            <thead>
+                <tr>
+                    <th>hàng 1 cột 1 </th>
+                    <th>hàng 1 cột 2</th>
+                    <th>hàng 1 cột 3 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>hàng 2 cột 1 </td>
+                    <td>hàng 2 cột 2 </td>
+                    <td>hàng 2 cột 3</td>
+                </tr>
+                <tr>
+                    <td>hàng 3 cột 1 </td>
+                    <td>hàng 3 cột 2 </td>
+                    <td>hàng 3 cột 3</td>
+                </tr>
+    
+            </tbody>
+            <table class="table-3">
+                <thead>
+                    <tr>
+                        <th>hàng 1 cột 1 </th>
+                        <th>hàng 1 cột 2</th>
+                        <th>hàng 1 cột 3 </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>hàng 2 cột 1 </td>
+                        <td>hàng 2 cột 2 </td>
+                        <td>hàng 2 cột 3</td>
+                    </tr>
+                    <tr>
+                        <td>hàng 3 cột 1 </td>
+                        <td>hàng 3 cột 2 </td>
+                        <td>hàng 3 cột 3</td>
+                    </tr>
+        
+                </tbody>
+    </table>
+    <div class="box1">box 1</div>
+    <div class="box2"> box 2 </div>
+    <style>
+        .box1 {
+            background: orange;
+            border: 3px solid black;
+            width: 100px;
+            height: 100px;
+
+        }
+        .box2{
+            background: teal;
+            border: 3px solid black;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top:100px;
+
+        }
+        ul li {
+            list-style-type: disclosure-closed;
+        }
+        .table-1{
+            border-collapse: collapse;
+            margin-bottom: 20px;
+
+        }
+        .table-1 thead tr th {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: burlywood;
+            color: white;
+        }
+        .table-1 tbody tr td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .table-2{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        .table-2 thead tr th {
+            color: red;
+            padding: 10px;
+        }
+        .table-2 tbody tr td {
+            
+            padding: 10px;
+        }
+        .table-3{
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        .table-3 thead tr th {
+            border: 1px solid black;
+            height: 50px;
+            
+        }
+        .table-3 tbody tr td{
+            border: 1px solid black;
+            height: 50px;
+
+        }
+        .table-3 thead tr th:nth-child(1){
+            width: 80%;
+
+        }
+   
+    </style>
+    
+</body>
+</html>
