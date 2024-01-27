@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .content, .aside {
+        width: 100%; /* Set width to 100% for smaller screens */
+
+    }
+    .box{
+        width: calc(50% - 5px);
+    }
+    .box:nth-child(2){
+        margin-right: 0px;
+
+    }
+  
+
+}
+@media screen and (max-width: 480px) {
+    .content, .aside {
+        width: 100%; /* Set width to 100% for smaller screens */
+
+    }
+    .box{
+        margin-right: 0px;
+        width: 100%;
+    }
+  
+  
+
+}
+
