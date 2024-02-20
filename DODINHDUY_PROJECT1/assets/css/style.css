@@ -1,0 +1,21 @@
+/* code cho block */
+
+/* css cho header */
+.header-top{
+    background: #103178;
+    color: #e2b60f;
+    font-size: 18px;
+    padding:18px;
+    text-align: center;
+}
+.header-main .inner-wrap{
+    display: flex;
+}
+.header-main .inner-logo img{
+    height: 48px;
+}
+.header-main .inner-logo a span{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* css cho header */
