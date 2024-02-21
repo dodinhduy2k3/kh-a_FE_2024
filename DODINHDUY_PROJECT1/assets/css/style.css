@@ -1,6 +1,19 @@
 /* code cho block */
+.button{
+    background: var(--color-text);
+    color: white;
+    padding: 12px 32px;
+    border-radius: 45px;
+    border: 2px solid var(--color-text);
+}
+.button:hover {
+    color: var(--color-text);
+    background: white;
+}
 
 /* css cho header */
+.header{
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.1); /* Shadow */}
 .header-top{
     background: #103178;
     color: #e2b60f;
@@ -10,12 +23,163 @@
 }
 .header-main .inner-wrap{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.header-main .inner-logo a {
+    display: flex;
+    align-items: center;
+    
+    
 }
 .header-main .inner-logo img{
     height: 48px;
+    margin-right: 10px;
 }
 .header-main .inner-logo a span{
     font-size: 20px;
     font-weight: 600;
+    color: var(--color-one);
 }
+.header-main .inner-memu ul {
+    display: flex;
+    
+}
+.header-main .inner-memu ul li a {
+    color: var(--color-one);
+    font-size: 18px;
+}
+.header-main .inner-memu ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header-main .inner-contact {
+    font-size: 18px;
+    color: var(--color-one);
+}
+.header-main .inner-social ul {
+    display: flex;
+}
+.header-main .inner-social ul li a{
+    color: var(--color-one);
+    margin-left: 10px;
+    font-size: 26px;
+    
+}
+
 /* css cho header */
+
+/* css section one  */
+.section-one{
+    background: #f0f2f5;
+    padding: 80px 0px;
+}
+.section-one .inner-wrap{
+    display: flex;
+}
+.section-one .inner-content{
+    width: 50%;
+}
+.section-one .inner-content .inner-title{
+    font-size: 60px;
+    color: var(--color-one);
+}
+.section-one .inner-content .inner-dsc{
+    color: var(--color-one);
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.section-one .inner-content .inner-list{
+    display: flex;
+    margin-bottom: 40px;
+}
+.section-one .inner-content .inner-item{
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.section-one .inner-content .inner-item i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.button-two{
+    background: var(--color-two);
+    border-color: var(--color-two);
+
+}
+.button-two:hover{
+    color: var(--color-two);
+}
+.section-one .inner-img{
+    width: 50%;
+    position: relative;
+}
+.section-one .inner-img img{
+    width: 100%;
+    
+}
+.section-one .inner-img .inner-sale{
+    position: absolute;
+    top:0;
+    right: 200px;
+    background: var(--color-two);
+    color: var(--color-one);
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.section-one .inner-img .inner-sale span:nth-child(1){
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.section-one .inner-img .inner-sale span:nth-child(2){
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* end css section one */
+/*  css section two */
+.section-two {
+    padding: 100px 0;
+}
+.section-two .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.section-two img {
+    width: 200px;
+}
+.section-two .inner-box{
+    width: calc(100%/3 - 20px);
+    height: 100%;
+    /* tỷ lệ with/height của element */
+    aspect-ratio: 4/3;
+    position: relative;
+}
+.section-two .inner-box img {
+    width: 100%;
+    height: 100%;
+    /* để ảnh tự co dãn hết with mà không bị vỡ */
+    object-fit: cover;
+}
+.section-two .inner-box .inner-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/* end css section two */

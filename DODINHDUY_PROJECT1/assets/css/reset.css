@@ -6,7 +6,7 @@
 }
 
 /* Remove margin and padding */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+body, ul, ol, li, figure, figcaption, blockquote, dl, dd {
     margin: 0;
     padding: 0;
 }
@@ -16,11 +16,7 @@ ul, ol {
     list-style: none;
 }
 
-/* Remove default styles for headings */
-h1, h2, h3, h4, h5, h6 {
-    font-size: inherit;
-    font-weight: inherit;
-}
+
 
 /* Set default font family and size */
 body {
