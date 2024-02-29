@@ -1,0 +1,36 @@
+.section-one {
+    background: #F8FCF9;
+    padding: 60px;
+
+}
+.section-one .inner-box i{
+    color: #63BB7A;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin: 10px 0px;
+}
+.section-one .inner-box .inner-titlt {
+    font-size: 20px;
+
+}
+.section-one .inner-box .inner-desc{
+    font-size: 14px;
+}
+
+/* section-two */
+.section-two .inner-img img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991.96px) {
+    .inner-left{ 
+        order: 1;
+    }
+
+    .section-two .inner-content {
+        margin-top: 20px;
+    }
+}
+/* end section-two */
+

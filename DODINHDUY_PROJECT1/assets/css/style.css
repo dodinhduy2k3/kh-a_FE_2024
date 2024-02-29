@@ -5,6 +5,7 @@
     padding: 12px 32px;
     border-radius: 45px;
     border: 2px solid var(--color-text);
+    display: inline-block;
 }
 .button:hover {
     color: var(--color-text);
@@ -164,12 +165,14 @@
     /* tỷ lệ with/height của element */
     aspect-ratio: 4/3;
     position: relative;
+    overflow: hidden;
 }
 .section-two .inner-box img {
     width: 100%;
     height: 100%;
     /* để ảnh tự co dãn hết with mà không bị vỡ */
     object-fit: cover;
+    transition: all 0,6s ;
 }
 .section-two .inner-box .inner-content {
     position: absolute;
@@ -177,9 +180,56 @@
     width: 100%;
     top: 0px;
     padding: 30px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+   ; 
 
 }
+.section-two .inner-box .inner-tag{
+    background: #139f5d;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.section-two .inner-box .inner-title{
+    margin-top: 0px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+.section-two .inner-box:hover img{
+    transform: scale(1.1);
+}
 /* end css section two */
+
+.section-three {
+    background: #F0F2F5;
+}
+.section-three .inner-head{
+    text-align: center;
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+.section-three .inner-head .inner-title{
+    font-size: 60px;
+    color: var(--color-one);
+
+}
+.section-three .inner-head .inner-desc{
+
+    font-size: 24px;
+    margin: 0px;
+}
+
+.section-three .inner-wrap{
+    display: flex;
+}
+.section-three .inner-box{
+    text-align: center;
+    width: calc(100%/3);
+    
+}
